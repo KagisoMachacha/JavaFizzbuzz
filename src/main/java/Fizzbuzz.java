@@ -18,7 +18,7 @@ public class Fizzbuzz {
         return String.valueOf(i);
     }
     public static void main(String[] args){
-        for (int i = 1; i <= 100; i++){
+        for (int i = 1; i <= 50; i++){
             String msg = process(i);
             System.out.println(msg);
         }
